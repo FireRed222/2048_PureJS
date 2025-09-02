@@ -193,3 +193,7 @@ function canMoveInGroup(group) {
     return targetCell.canAccept(cell.linkedTile);
   });
 }
+
+window.addEventListener("touchmove", (e) => {
+  e.preventDefault();
+}, { passive: false });
