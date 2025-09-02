@@ -13,9 +13,9 @@ body {
 }
 
 html, body {
-    overscroll-behavior: none;  /* stops pull-to-refresh */
-    touch-action: none;         /* disables scrolling/pinch gestures */
-    overflow: hidden;           /* prevent scrollbars */
+    overscroll-behavior-y: none;
+    touch-action: none;
+    overflow: hidden;
     height: 100%;
   }
 
