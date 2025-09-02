@@ -12,6 +12,13 @@ body {
     height: 100dvh;
 }
 
+html, body {
+    overscroll-behavior: none;  /* stops pull-to-refresh */
+    touch-action: none;         /* disables scrolling/pinch gestures */
+    overflow: hidden;           /* prevent scrollbars */
+    height: 100%;
+  }
+
 .board {
     --cell-size: 20vmin;
     --cell-gap: 2vmin;
